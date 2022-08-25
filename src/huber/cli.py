@@ -1,8 +1,8 @@
 """CLI functions."""
 import click
 
-from huber.functions import factorial
-from huber.functions import gcd
+from huber.math import factorial
+from huber.math import gcd
 
 
 @click.command()
