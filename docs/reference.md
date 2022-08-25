@@ -1,8 +1,10 @@
 # Reference
 
-### General Functions
+## Modules
+
+### Math 
 
 ```{eval-rst}
-.. automodule:: huber.functions
+.. automodule:: huber.math
    :members:
 ```

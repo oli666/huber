@@ -9,7 +9,7 @@ def factorial(n: int) -> int:
     :n: Integer to calculate factorial for
     :returns: Factorial of n
 
-    >>>factorial(4)
+    >>> factorial(4)
     24
 
     """
