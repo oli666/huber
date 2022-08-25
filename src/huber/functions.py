@@ -1,10 +1,10 @@
-import typing
+"""General Functions."""
 from functools import lru_cache
 
 
 @lru_cache(maxsize=None)
 def factorial(n: int) -> int:
-    """Get facorial of n (recursive version)
+    """Get facorial of n (recursive version).
 
     :n: Integer to calculate factorial for
     :returns: Factorial of n
@@ -20,7 +20,7 @@ def factorial(n: int) -> int:
 
 @lru_cache(maxsize=None)
 def gcd(a: int, b: int) -> int:
-    """Get greatest common divisor
+    """Get greatest common divisor.
 
     :a: First int
     :b: Second int

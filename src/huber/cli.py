@@ -1,13 +1,15 @@
+"""CLI functions."""
 import click
-from recursion.functions import factorial
-from recursion.functions import gcd
+
+from huber.functions import factorial
+from huber.functions import gcd
 
 
 @click.command()
 @click.argument("number", required=1)
 @click.version_option()
 def get_factorial(number):
-    """Get facorial CLI"""
+    """Get facorial CLI."""
     print(factorial(int(number)))
 
 
@@ -16,5 +18,5 @@ def get_factorial(number):
 @click.argument("num2", required=1)
 @click.version_option()
 def get_gcd(num1, num2):
-    """Get gcd CLI"""
+    """Get gcd CLI."""
     print(gcd(int(num1), int(num2)))
