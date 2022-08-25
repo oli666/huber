@@ -1,1 +1,1 @@
-"""Test suite for the huber package."""
+"""Test suite for the recursion package."""
