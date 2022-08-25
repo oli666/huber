@@ -7,6 +7,7 @@ from recursion.functions import gcd
 @click.argument("number", required=1)
 @click.version_option()
 def get_factorial(number):
+    """Get facorial CLI"""
     print(factorial(int(number)))
 
 
@@ -15,4 +16,5 @@ def get_factorial(number):
 @click.argument("num2", required=1)
 @click.version_option()
 def get_gcd(num1, num2):
+    """Get gcd CLI"""
     print(gcd(int(num1), int(num2)))
