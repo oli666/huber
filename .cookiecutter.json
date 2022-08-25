@@ -1,0 +1,13 @@
+{
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Oliver Huber",
+  "copyright_year": "2022",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "webmaster@huberoliver.de",
+  "friendly_name": "Oliver_Huber",
+  "github_user": "oli666",
+  "license": "MIT",
+  "package_name": "huber",
+  "project_name": "huber",
+  "version": "0.0.0"
+}
