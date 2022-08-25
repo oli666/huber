@@ -2,7 +2,7 @@
 
 ## Modules
 
-### Math 
+### Math
 
 ```{eval-rst}
 .. automodule:: huber.math

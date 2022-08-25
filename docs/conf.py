@@ -7,7 +7,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx_click",
     "myst_parser",
-    "sphinx.ext.viewcode"
+    "sphinx.ext.viewcode",
 ]
 autodoc_typehints = "description"
 html_theme = "furo"
