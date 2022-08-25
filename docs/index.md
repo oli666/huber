@@ -8,7 +8,6 @@ end-before: <!-- github-only -->
 [contributor guide]: contributing
 [command-line reference]: usage
 
-
 ```{toctree}
 ---
 hidden:
@@ -22,4 +21,3 @@ Code of Conduct <codeofconduct>
 License <license>
 Changelog <https://github.com/oli666/huber/releases>
 ```
-
