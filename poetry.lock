@@ -1155,8 +1155,8 @@ tests-strict = ["cmake (==3.21.2)", "codecov (==2.0.15)", "ninja (==1.10.2)", "p
 
 [metadata]
 lock-version = "1.1"
-python-versions = "3.10.4"
-content-hash = "71311cbfb86e51875605d32a0c51b0f01c1fc018b6739dcc8e98448f9866d469"
+python-versions = "^3.10"
+content-hash = "d17d0cbea9d44ad47072875c91225ea75dc68bdc6baf43ed21b05552274e5dd0"
 
 [metadata.files]
 alabaster = [
