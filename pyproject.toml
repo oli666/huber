@@ -16,8 +16,10 @@ classifiers = [
 Changelog = "https://github.com/oli666/huber/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "3.10.4"
 click = ">=8.0.1"
+nox-poetry = ">=1.0.1"
+flake8-bandit = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"

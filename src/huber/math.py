@@ -1,5 +1,6 @@
 """General Functions."""
 from functools import lru_cache
+from typing import List
 
 
 @lru_cache(maxsize=None)
@@ -34,3 +35,16 @@ def gcd(a: int, b: int) -> int:
         return a
     else:
         return gcd(b, a % b)
+
+
+def sum_r(a_list: List[int]) -> int:
+    """Get sum of a list of integers.
+
+    :l: List of integers
+    :returns: Sum of items of l
+
+    """
+    if len(a_list) == 0:
+        return 0
+    else:
+        return a_list[0] + sum_r(a_list[1:])
