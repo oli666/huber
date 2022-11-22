@@ -1,0 +1,14 @@
+{
+  "_output_dir": "/mnt/c/HiDrive/HiDrive/werkbank/projekte",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "AVAYA",
+  "copyright_year": "2022",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "huberoliver@avaya.com",
+  "friendly_name": "Stardog Performance",
+  "github_user": "oli666",
+  "license": "MIT",
+  "package_name": "stardog_performance",
+  "project_name": "stardog-performance",
+  "version": "0.0.0"
+}
